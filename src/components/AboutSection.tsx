@@ -84,11 +84,7 @@ const AboutSection = () => {
             </TabButton>
           </div>
           <div className="mt-8">
-          {/* {isPending ? (
-              <p>Loading...</p>
-            ) : (
-            {TAB_DATA.find((t) => t.id === tab)?.content}
-            )} */}
+         
              {isPending ? (
               <p>Loading...</p>
             ) : (
