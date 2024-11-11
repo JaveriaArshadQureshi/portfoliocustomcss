@@ -35,7 +35,7 @@ const HeroSection = () => {
           I&apos;m a front-end developer and a Computer Science student. I love building user-friendly interfaces and always look to learn the latest in web technologies to improve my skills. I&apos;m also interested in how AI can be used in web development to make websites and apps more personal and helpful for users.
           </p>
           <div>
-            <button className="py-3 px-6 w-full sm:w-fit rounded-full mr-4  text-white font-bold bg-gradient-to-br from-pink-400  to-pi hover:bg-slate-600">
+            <button className="py-3 px-6 w-full sm:w-fit rounded-full mr-4  text-white font-bold bg-gradient-to-br    from-pink-400 to-pink-500 hover:bg-slate-600">
               Hire Me
             </button>
             <button className="py-1 px-1 w-full sm:w-fit rounded-full text-white font-bold bg-gradient-to-br  from-pink-400 to-pink-500 hover:bg-slate-800   mt-3 ">
