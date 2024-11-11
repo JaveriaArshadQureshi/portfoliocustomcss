@@ -35,7 +35,7 @@ const Navbar = () => {
     <nav className="fixed mx-auto   border border-[#121212] top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100">
       <div className="flex flex-wrap items-center   justify-between mx-auto px-4">
         <Link href="/">
-          <div className="text-[#F67C8C] font-extrabold text-2xl md:text-5xl ">
+          <div className="text-pink-400 font-extrabold text-2xl md:text-5xl ">
             Jave<span className="text-white">ria•</span>
           </div>
         </Link>
