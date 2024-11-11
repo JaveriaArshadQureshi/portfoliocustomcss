@@ -49,7 +49,7 @@ const EmailSection = () => {
 
             <button
               type="submit"
-              className="bg-pink-400 hover:bg-gray-300 mt-5 text-white font-medium py-2.5 px-5 rounded-lg w-full"
+              className="bg-gradient-to-br    from-pink-400 to-pink-500 hover:bg-slate-800 hover:brightness-90 mt-5 text-white font-medium py-2.5 px-5 rounded-lg w-full"
             >
               Send Message
             </button>
