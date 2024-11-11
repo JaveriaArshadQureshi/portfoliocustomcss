@@ -56,11 +56,10 @@ const AboutSection = () => {
         <div className="mt-4 mt:ml-6 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base text-[#ADB7BE] text-justify lg:text-lg">
-            I am a front-end web developer with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with JavaScript, Typescript, Next.js, HTML, CSS, Tailwind CSS, Git and Github. I am a quick 
-            learner and I am always looking to expand my knowledge and skill set. 
-            I am excited to work with others to create amazing applications.
+          I am a front-end web developer with a deep interest in building interactive and responsive
+           web applications. I have expertise in JavaScript, TypeScript, Next.js, HTML, CSS, Tailwind 
+           CSS, Git, and GitHub, and I'm always looking to expand my skills and knowledge. I am actively 
+           looking for new opportunities to apply my skills and grow professionally.
           </p>
           <div className="flex flex-row mt-8 space-x-4">
             <TabButton
