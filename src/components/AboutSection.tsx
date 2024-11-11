@@ -58,7 +58,7 @@ const AboutSection = () => {
           <p className="text-base text-[#ADB7BE] text-justify lg:text-lg">
           I am a front-end web developer with a deep interest in building interactive and responsive
            web applications. I have expertise in JavaScript, TypeScript, Next.js, HTML, CSS, Tailwind 
-           CSS, Git, and GitHub, and I'm always looking to expand my skills and knowledge. I am actively 
+           CSS, Git, and GitHub, and I am always looking to expand my skills and knowledge. I am actively 
            looking for new opportunities to apply my skills and grow professionally.
           </p>
           <div className="flex flex-row mt-8 space-x-4">
