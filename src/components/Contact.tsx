@@ -7,6 +7,7 @@ import "@/app/style/email.css";
 
 const EmailSection = () => {
   return (
+
     <section className='email-section' id='contact'>
         <div className='email-content'>
             <h5 className="heading">
@@ -25,6 +26,7 @@ const EmailSection = () => {
                   <Image src={LinkedinIcon} alt='LinkedinIcon' />
                 </Link>
             </div>
+   
         </div>
         <div>
           <form className='form'>
