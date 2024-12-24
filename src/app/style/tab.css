@@ -1,0 +1,21 @@
+
+
+.tab-button {
+  padding: 0.5rem 1rem; /* Adjust padding for spacing */
+  /* transition: color 0.3s ease, border-color 0.3s ease; */
+  
+  font-weight: 500;
+}
+
+.tab-button:hover {
+  color: white; /* Hover effect to change text color */
+}
+
+.tab-button-active {
+  color: white;
+  border-bottom: 2px solid #EC4899; /* Pink-400 */
+}
+
+.tab-button-inactive {
+  color: #ADB7BE;
+}

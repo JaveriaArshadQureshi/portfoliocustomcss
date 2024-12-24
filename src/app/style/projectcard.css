@@ -1,0 +1,37 @@
+.project-card {
+    width: 100%; 
+  }
+  
+  .image-container {
+    height: 208px; 
+    border-top-left-radius: 12px; 
+    border-top-right-radius: 12px;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  @media (min-width: 768px) {
+    .image-container {
+      height: 288px;
+    }
+  }
+  
+  .content {
+    color: white;
+    background-color: #181818; 
+    padding: 24px 16px; 
+    border-bottom-left-radius: 12px; 
+    border-bottom-right-radius: 12px;
+    margin-top: 12px; 
+  }
+  
+  .title {
+    font-size: 20px; 
+    font-weight: 600; /* font-semibold */
+  }
+  
+  .description {
+    color: #adb7be; 
+    margin-bottom: 20px; 
+  }
+  

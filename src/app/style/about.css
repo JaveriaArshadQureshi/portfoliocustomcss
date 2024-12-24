@@ -1,0 +1,63 @@
+/* AboutSection custom styles */
+#about {
+    background-color: #1a1a1a; /* Dark background for contrast */
+    color: #ffffff;
+  }
+  
+  #about .full {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
+    padding: 2rem 1rem;
+  }
+  
+  #about h2 {
+    color: #ffffff;
+  }
+  
+  #about p {
+    color: #adb7be;
+  }
+  
+  #about img {
+    border-radius: 0.5rem;
+  }
+  
+  #about .tab-button {
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    background-color: #333333;
+    color: #adb7be;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  #about .tab-button.active {
+    background-color: #4a90e2;
+    color: #ffffff;
+  }
+  
+  #about .tab-button:hover:not(.active) {
+    background-color: #555555;
+  }
+  
+  #about .mt-8 > p {
+    font-style: italic;
+    color: #adb7be;
+  }
+  
+  @media (max-width: 768px) {
+    #about .full {
+      display: block;
+    }
+  
+    #about img {
+      margin: 0 auto;
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  

@@ -2,7 +2,9 @@
 import React, { useTransition, useState,  } from 'react';
 import Image from 'next/image';
 import TabButton from './TabButton';
+import "@/app/style/about.css"
 
+ 
 const TAB_DATA = [
   {
     title: "Skills",
@@ -50,18 +52,18 @@ const AboutSection = () => {
   };
 
   return (
-    <section className="text-white" id="about">
-      <div className="md:grid md:grid-cols-2 gap-8 items-center  py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
+    <section className="aboutcss" id="about">
+      <div className="full">
         <Image src="/about-pick.jpeg" alt="about pic" width={500} height={500}  />
-        <div className="mt-4 mt:ml-6 md:mt-0 text-left flex flex-col h-full">
-          <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
-          <p className="text-base text-[#ADB7BE] text-justify lg:text-lg">
+        <div className="main">
+          <h2 >About Me</h2>
+          <p>
           I am a front-end web developer with a deep interest in building interactive and responsive
            web applications. I have expertise in JavaScript, TypeScript, Next.js, HTML, CSS, Tailwind 
            CSS, Git, and GitHub, and I am always looking to expand my skills and knowledge. I am actively 
            looking for new opportunities to apply my skills and grow professionally.
           </p>
-          <div className="flex flex-row mt-8 space-x-4">
+          <div className="tab-button">
             <TabButton
               selectTab={() => handleTabChange("skills")}
               active={tab === "skills"}
@@ -81,7 +83,7 @@ const AboutSection = () => {
               Certifications
             </TabButton>
           </div>
-          <div className="mt-8">
+          <div className="active">
          
              {isPending ? (
               <p>Loading...</p>

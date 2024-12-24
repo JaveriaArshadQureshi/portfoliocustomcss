@@ -1,5 +1,5 @@
-
-import React from 'react'
+import React from 'react';
+import '@/app/style/tab.css'
 
 interface TabButtonProps {
   active: boolean;
@@ -7,17 +7,14 @@ interface TabButtonProps {
   children: React.ReactNode;
 }
 
-const  TabButton : React.FC<TabButtonProps> = ( {active, selectTab, children } ) => {
-  const buttonClasses = active?'text-white border-b border-pink-400' : 'text-[#ADB7BE] '
-  
-  return (
-    <button onClick={selectTab}>
-      <p className= {`mr-3 font-semibold hover:text-white  ${buttonClasses}`}
-      >
-      {children}
-      </p>
-    </button>
-  )
-}
+const TabButton: React.FC<TabButtonProps> = ({ active, selectTab, children }) => {
+  const buttonClasses = active ? 'tab-button tab-button-active' : 'tab-button tab-button-inactive';
 
-export default TabButton
+  return (
+    <button onClick={selectTab} className={buttonClasses}>
+      <p className="mr-3 font-semibold">{children}</p>
+    </button>
+  );
+};
+
+export default TabButton;

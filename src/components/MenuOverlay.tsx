@@ -1,5 +1,6 @@
 import React from "react";
 import NavLink from "./NavLink";
+import "@/app/style/menu.css"
 
 interface Link {
     path: string;
@@ -12,7 +13,7 @@ interface Link {
 
 const MenuOverlay : React.FC<MenuOverlayProps>= ({ links }) => {
   return (
-    <ul className="flex flex-col py-4 items-center">
+    <ul className="menu">
       {links.map((link, index) => (
         <li key={index}>
           <NavLink href={link.path} title={link.title} />
